@@ -1,9 +1,6 @@
+
 #include "main.h"
+#include "gui/C_App.h"
 
 
-
-int main()
-{
-    std::cout << "Hello World!\n";
-}
-
+wxIMPLEMENT_APP(TG::MyApp);
